@@ -1,0 +1,213 @@
+/* Varyable Start*/
+:root{
+	--icon-size: 50px;
+	--padding-bottom: 10px;
+	--icon-color: #FFCD42;
+	--bg-overlay: rgba(0,0,0,0.8);
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #000;
+}
+.h-w{
+	color:#fff;
+}
+/*===========================Index.HTML===================================*/
+/**Navbar**/
+
+#header{
+	min-height: 700px;
+	background: #fcdb00;
+}
+
+#header .navbar-brand{
+		margin-left:-15px !important;
+	}
+#header li.nav-item {
+    padding: 10px 0px 10px 50px;
+}
+
+#header a.nav-link {
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+#myCarousel .icon i {
+    font-size: 50px;
+    padding: 25px;
+    padding-left: 0px;
+}
+#myCarousel .header-img img{
+    height: 400px;
+    padding-left: 80px;
+}
+#myCarousel ol.carousel-indicators {
+	margin-bottom: -60px;
+}
+/**Features Section**/
+#features .features-item i {
+    font-size: 40px;
+    padding-right:5px;
+}
+/**Touch Section**/
+#touch{
+	background: #000;
+	color: #fff;
+}
+#touch h2{
+	color: #FBDA19;
+	
+}
+#touch .social-icon i {
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+    background: #ffc107;
+    color: #000;
+    border-radius: 2px;
+    text-align: center;
+    margin-right: 5px;
+}
+#touch .email-form{
+   	
+	}
+#touch .submit-btn{
+		
+	}
+	
+/*===========================Blog.HTML===================================*/
+#blog-header,#blog-post{
+	background:#FBDA19; 
+}
+#blog-header .navbar-brand{
+		margin-left:-15px !important;
+	}
+#blog-header li.nav-item {
+    padding: 10px 0px 10px 50px;
+}
+
+#blog-header a.nav-link {
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+#blog-post .card-shadow:hover{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: .5s ease;
+}
+
+
+	
+/**Media Queries**/
+
+@media(max-width:767px){
+	#header li.nav-item {
+    padding: 0px;
+	margin-bottom:-10px;
+	}
+	#header a.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+	}
+	#header{
+	min-height: 600px;
+	background: #fcdb00;
+	}
+	#header .navbar-brand{
+		margin-left:-15px !important;
+	}
+	#myCarousel h2{
+		font-size: 18px;
+		padding-bottom:0px !important;
+	}
+	#myCarousel .carousel-inner{
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	#myCarousel h6{
+		font-size: 14px;
+		padding-bottom:0px !important;
+	}
+	#myCarousel p{
+		font-size:12px;
+	}
+	#myCarousel .icon i {
+		font-size: 20px;
+		padding: 10px;
+		padding-left: 0px;
+	}
+	#myCarousel .header-img img{
+		height: 300px;
+		padding-left: 20px;
+	}
+	#myCarousel ol.carousel-indicators {
+		margin-bottom: -60px;
+	}
+	#features .features-item i{
+		padding-right: px;
+	}
+	#touch .submit-btn{
+		
+	}
+}
+@media(max-width:480px){
+	#header li.nav-item {
+    padding: 0px;
+	margin-bottom:-10px;
+	}
+	#header a.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+	}
+	#header{
+	min-height: 550px;
+	background: #fcdb00;
+	}
+	#header .navbar-brand{
+		margin-left:-15px !important;
+	}
+	#myCarousel h2{
+		font-size: 14px;
+		padding-bottom:0px !important;
+	}
+	#myCarousel .carousel-inner{
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	#myCarousel h6{
+		font-size: 10px;
+		padding-bottom:0px !important;
+	}
+	#myCarousel p{
+		font-size:10px;
+	}
+	#myCarousel .icon i {
+		font-size: 15px;
+		padding: 8px;
+		padding-left: 0px;
+	}
+	#myCarousel .header-img img{
+		height: 250px;
+		padding-left: 20px;
+	}
+	#myCarousel ol.carousel-indicators {
+		margin-bottom: -60px;
+	}
+	#features .features-item i {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+	}
+	#touch .email-form{
+	
+	}
+	#touch .submit-btn{
+		
+	}
+}
